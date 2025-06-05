@@ -49,10 +49,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB        &kp Q         &kp W            &kp F            &kp P              &kp G        &kp J      &kp L               &kp U             &kp Y             &kp SEMICOLON  &kp ESCAPE
-&kp BACKSPACE  &HML LCTRL A  &HML LEFT_ALT R  &HML LG(LWIN) S  &HML LEFT_SHIFT T  &lt 1 D      &kp H      &HMR RIGHT_SHIFT N  &HMR RIGHT_WIN E  &HMR RIGHT_ALT I  &HMR RCTRL O   &kp SQT
-&kp LSHFT      &kp Z         &kp X            &kp C            &kp V              &kp B        &kp K      &kp M               &kp COMMA         &kp DOT           &kp FSLH       &kp ENTER
-                                              &tog 1           &trans             &kp ENTER    &kp SPACE  &kp TAB             &tog 2
+&kp ESCAPE  &kp Q         &kp W            &kp F            &kp P              &kp B            &kp J      &kp L               &kp U             &kp Y             &kp SEMICOLON  &kp HOME
+&kp TAB     &HML LCTRL A  &HML LEFT_ALT R  &HML LG(LWIN) S  &HML LEFT_SHIFT T  &lt 1 G          &kp M      &HMR RIGHT_SHIFT N  &HMR RIGHT_WIN E  &HMR RIGHT_ALT I  &HMR RCTRL O   &kp SQT
+&kp LSHFT   &kp Z         &kp X            &kp C            &kp D              &kp V            &kp K      &kp H               &kp COMMA         &kp DOT           &kp FSLH       &kp END
+                                           &tog 1           &kp ENTER          &kp BACKSPACE    &kp SPACE  &kp DELETE          &tog 2
             >;
         };
 
@@ -65,10 +65,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TAB        &trans          &kp UP_ARROW    &trans           &kp HOME     &kp PAGE_UP       &mt UNDERSCORE MINUS  &mt AMPERSAND N7          &mt ASTERISK NUMBER_8  &kp N9              &kp ASTERISK     &kp SLASH
-&kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END      &kp PAGE_DOWN     &mt PLUS EQUAL        &mt DOLLAR NUMBER_4       &mt PERCENT NUMBER_5   &mt CARET NUMBER_6  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN
-&kp LSHFT      &kp C_AC_UNDO   &kp C_AC_CUT    &kp C_AC_COPY    &kp K_PASTE  &kp C_AC_PASTE    &kp NUMBER_0          &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2   &mt HASH NUMBER_3   &kp C_MUTE       &trans
-                                               &tog 1           &trans       &kp ENTER         &kp SPACE             &kp TAB                   &trans
+&kp ESCAPE  &trans          &kp UP_ARROW    &trans           &kp HOME     &kp PAGE_UP       &mt UNDERSCORE MINUS  &mt AMPERSAND N7          &mt ASTERISK NUMBER_8  &kp N9              &kp ASTERISK     &kp SLASH
+&kp TAB     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END      &kp PAGE_DOWN     &mt PLUS EQUAL        &mt DOLLAR NUMBER_4       &mt PERCENT NUMBER_5   &mt CARET NUMBER_6  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN
+&kp LSHFT   &kp C_AC_UNDO   &kp C_AC_CUT    &kp C_AC_COPY    &kp K_PASTE  &kp C_AC_PASTE    &kp NUMBER_0          &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2   &mt HASH NUMBER_3   &kp C_MUTE       &trans
+                                            &tog 1           &kp ENTER    &kp BACKSPACE     &kp SPACE             &kp DELETE                &trans
             >;
         };
 
@@ -81,10 +81,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB        &trans        &trans        &trans        &trans        &trans            &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp EQUAL  &kp BSPC
-&kp BACKSPACE  &trans        &trans        &trans        &trans        &bt BT_CLR_ALL    &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE  &kp PLUS   &kp GRAVE
-&kp LSHFT      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &kp UNDER      &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans          &trans     &kp TILDE
-                                           &trans        &trans        &kp SPACE         &kp RET        &kp TAB               &tog 2
+&kp ESCAPE  &trans        &trans        &trans        &trans        &trans            &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp EQUAL  &kp BSPC
+&kp TAB     &trans        &trans        &trans        &trans        &bt BT_CLR_ALL    &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDERSCORE  &kp PLUS   &kp GRAVE
+&kp LSHFT   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &trans         &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans          &trans     &kp TILDE
+                                        &trans        &kp ENTER     &kp BACKSPACE     &kp SPACE      &kp DELETE            &tog 2
             >;
         };
     };
