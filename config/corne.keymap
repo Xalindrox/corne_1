@@ -49,10 +49,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB        &kp Q  &kp W  &kp F                &kp P  &kp G        &kp J    &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&kp BACKSPACE  &kp A  &kp R  &HML LG(LEFT_WIN) S  &kp T  &kp D        &kp H    &kp N  &kp E      &kp I    &kp O          &kp SQT
-&kp LSHFT      &kp Z  &kp X  &kp C                &kp V  &kp B        &kp K    &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
-                             &kp LGUI             &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&kp TAB        &kp Q  &kp W  &kp F                &kp P  &kp G        &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&kp BACKSPACE  &kp A  &kp R  &HML LG(LEFT_WIN) S  &kp T  &kp D        &kp H      &kp N  &kp E      &kp I    &kp O          &kp SQT
+&kp LSHFT      &kp Z  &kp X  &kp C                &kp V  &kp B        &kp K      &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
+                             &kp ESCAPE           &mo 1  &kp ENTER    &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
@@ -68,7 +68,7 @@
 &kp TAB        &trans          &kp UP_ARROW    &trans           &kp HOME  &trans       &mt UNDERSCORE MINUS  &mt AMPERSAND N7          &mt ASTERISK NUMBER_8  &kp N9              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp BACKSPACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END   &trans       &mt PLUS EQUAL        &mt DOLLAR NUMBER_4       &mt PERCENT NUMBER_5   &mt CARET NUMBER_6  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
 &kp LSHFT      &trans          &trans          &trans           &trans    &trans       &kp NUMBER_0          &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2   &mt HASH NUMBER_3   &trans                &trans
-                                               &kp LGUI         &trans    &kp SPACE    &kp RET               &trans                    &kp RALT
+                                               &kp ESCAPE       &trans    &kp ENTER    &kp SPACE             &trans                    &kp RALT
             >;
         };
 
