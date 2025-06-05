@@ -13,7 +13,7 @@
         HMR: HMR {
             compatible = "zmk,behavior-hold-tap";
             label = "HMR";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <280>;
@@ -26,7 +26,7 @@
         HML: HML {
             compatible = "zmk,behavior-hold-tap";
             label = "HML";
-            bindings = <&none>, <&none>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <280>;
