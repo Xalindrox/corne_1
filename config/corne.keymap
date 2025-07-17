@@ -52,7 +52,7 @@
 &kp ESCAPE  &kp Q         &kp W            &kp F            &kp P              &kp B            &kp J      &mt LEFT_PARENTHESIS L  &mt RIGHT_PARENTHESIS U  &kp Y             &kp SEMICOLON  &kp HOME
 &kp TAB     &HML LCTRL A  &HML LEFT_ALT R  &HML LG(LWIN) S  &HML LEFT_SHIFT T  &lt 1 G          &lt 1 M    &HMR RIGHT_SHIFT N      &HMR RIGHT_WIN E         &HMR RIGHT_ALT I  &HMR RCTRL O   &kp SQT
 &kp LSHFT   &kp Z         &kp X            &kp C            &kp D              &kp V            &kp K      &kp H                   &kp COMMA                &kp DOT           &kp FSLH       &kp END
-                                           &tog 1           &kp ENTER          &kp BACKSPACE    &kp SPACE  &kp DELETE              &tog 2
+                                           &tog 1           &kp DEL            &kp BACKSPACE    &kp SPACE  &kp ENTER               &tog 2
             >;
         };
 
