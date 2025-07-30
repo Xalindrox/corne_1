@@ -16,7 +16,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <500>;
+            tapping-term-ms = <380>;
             quick-tap-ms = <250>;
             flavor = "tap-preferred";
             hold-trigger-on-release;
@@ -29,7 +29,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <500>;
+            tapping-term-ms = <380>;
             quick-tap-ms = <250>;
             flavor = "tap-preferred";
             hold-trigger-on-release;
@@ -42,7 +42,7 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <500>;
+            tapping-term-ms = <380>;
             quick-tap-ms = <250>;
             flavor = "tap-preferred";
             hold-trigger-key-positions = <5 17 18>;
