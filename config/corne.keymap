@@ -77,10 +77,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp ESCAPE  &trans        &trans    &kp UP_ARROW  &kp PAGE_UP    &kp C_VOLUME_UP    &mt UNDERSCORE MINUS  &mt AMPERSAND N7          &mt ASTERISK NUMBER_8  &kp N9              &kp ASTERISK  &kp SLASH
-&kp TAB     &kp LEFT_WIN  &kp LEFT  &kp DOWN      &kp RIGHT      &kp C_VOL_DN       &mt PLUS EQUAL        &mt DOLLAR NUMBER_4       &mt PERCENT NUMBER_5   &mt CARET NUMBER_6  &trans        &trans
-&kp LSHFT   &trans        &trans    &trans        &kp PAGE_DOWN  &kp K_MUTE         &kp NUMBER_0          &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2   &mt HASH NUMBER_3   &trans        &trans
-                                    &tog 1        &kp DEL        &kp BACKSPACE      &kp SPACE             &kp RETURN                &kp PERIOD
+&kp ESCAPE  &trans        &trans    &kp UP_ARROW  &kp PAGE_UP    &kp C_VOLUME_UP    &mt UNDERSCORE MINUS  &mt AMPERSAND N7             &mt ASTERISK NUMBER_8  &kp N9              &kp ASTERISK  &kp SLASH
+&kp TAB     &kp LEFT_WIN  &kp LEFT  &kp DOWN      &kp RIGHT      &kp C_VOL_DN       &mt PLUS EQUAL        &mt DOLLAR NUMBER_4          &mt PERCENT NUMBER_5   &mt CARET NUMBER_6  &trans        &trans
+&kp LSHFT   &trans        &trans    &trans        &kp PAGE_DOWN  &kp K_MUTE         &kp KP_N0             &mt EXCLAMATION KP_NUMBER_1  &mt AT_SIGN NUMBER_2   &mt HASH NUMBER_3   &trans        &trans
+                                    &tog 1        &kp DEL        &kp BACKSPACE      &kp SPACE             &kp RETURN                   &kp PERIOD
             >;
         };
 
