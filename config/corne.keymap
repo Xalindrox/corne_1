@@ -61,10 +61,10 @@
 
             display-name = "Base";
             bindings = <
-&tog 1     &kp Q         &kp W            &kp F                 &kp P              &HL 2 B          &HMR LEFT_PARENTHESIS J  &HMR RIGHT_PARENTHESIS L  &HMR MINUS U          &HMR UNDER Y      &kp SEMICOLON  &tog 2
-&kp TAB    &HML LCTRL A  &HML LEFT_ALT R  &HML LG(LWIN) S       &HML LEFT_SHIFT T  &HL 1 G          &HL 1 M                  &HMR RIGHT_SHIFT N        &HMR LEFT_WIN E       &HMR RIGHT_ALT I  &HMR RCTRL O   &kp SQT
-&kp LCTRL  &kp Z         &kp X            &kp C                 &kp D              &HL 2 V          &kp K                    &kp H                     &HMR PIPE COMMA       &kp DOT           &kp FSLH       &kp ESCAPE
-                                          &HML LEFT_SHIFT HOME  &kp DEL            &kp BACKSPACE    &kp SPACE                &kp ENTER                 &HMR RIGHT_SHIFT END
+&tog 1           &kp Q         &kp W            &kp F                 &kp P              &HL 2 B          &HMR LEFT_PARENTHESIS J  &HMR RIGHT_PARENTHESIS L  &HMR MINUS U          &HMR UNDER Y      &kp SEMICOLON  &tog 2
+&kp TAB          &HML LCTRL A  &HML LEFT_ALT R  &HML LG(LWIN) S       &HML LEFT_SHIFT T  &HL 1 G          &HL 1 M                  &HMR RIGHT_SHIFT N        &HMR LEFT_WIN E       &HMR RIGHT_ALT I  &HMR RCTRL O   &kp SQT
+&HML LCTRL CAPS  &kp Z         &kp X            &kp C                 &kp D              &HL 2 V          &kp K                    &kp H                     &HMR PIPE COMMA       &kp DOT           &kp FSLH       &kp ESCAPE
+                                                &HML LEFT_SHIFT HOME  &kp DEL            &kp BACKSPACE    &kp SPACE                &kp ENTER                 &HMR RIGHT_SHIFT END
             >;
         };
 
@@ -77,10 +77,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp ESCAPE  &trans        &trans    &kp UP_ARROW  &kp PAGE_UP    &kp C_VOLUME_UP    &mt UNDERSCORE MINUS  &mt AMPERSAND KP_N7          &mt ASTERISK KP_N8  &kp KP_N9        &kp ASTERISK  &kp SLASH
-&kp TAB     &kp LEFT_WIN  &kp LEFT  &kp DOWN      &kp RIGHT      &kp C_VOL_DN       &mt PLUS EQUAL        &mt DOLLAR KP_N4             &mt PERCENT KP_N5   &mt CARET KP_N6  &trans        &trans
-&kp LSHFT   &trans        &trans    &trans        &kp PAGE_DOWN  &kp K_MUTE         &kp KP_N0             &mt EXCLAMATION KP_NUMBER_1  &mt AT_SIGN KP_N2   &mt HASH KP_N3   &trans        &trans
-                                    &tog 1        &kp DEL        &kp BACKSPACE      &kp SPACE             &kp RETURN                   &kp PERIOD
+&tog 1     &trans        &trans    &kp UP_ARROW  &kp PAGE_UP    &kp C_VOLUME_UP    &mt UNDERSCORE MINUS  &mt AMPERSAND KP_N7          &mt ASTERISK KP_N8  &kp KP_N9        &kp ASTERISK  &tog 2
+&kp TAB    &kp LEFT_WIN  &kp LEFT  &kp DOWN      &kp RIGHT      &kp C_VOL_DN       &mt PLUS EQUAL        &mt DOLLAR KP_N4             &mt PERCENT KP_N5   &mt CARET KP_N6  &kp SLASH     &trans
+&kp LSHFT  &trans        &trans    &trans        &kp PAGE_DOWN  &kp K_MUTE         &kp KP_N0             &mt EXCLAMATION KP_NUMBER_1  &mt AT_SIGN KP_N2   &mt HASH KP_N3   &kp PERIOD    &trans
+                                   &kp HOME      &kp DEL        &kp BACKSPACE      &kp SPACE             &kp RETURN                   &kp END
             >;
         };
 
@@ -93,10 +93,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp ESCAPE  &trans        &trans        &trans        &trans        &trans            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS             &kp UNDERSCORE  &trans    &trans
+&kp ESCAPE  &trans        &trans        &trans        &trans        &trans            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS             &kp UNDERSCORE  &trans    &tog 2
 &kp TAB     &trans        &trans        &trans        &trans        &bt BT_CLR_ALL    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NON_US_BACKSLASH  &kp EQUAL       &kp PLUS  &kp GRAVE
 &kp LSHFT   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE              &trans          &trans    &kp TILDE
-                                        &trans        &kp DELETE    &kp BACKSPACE     &kp SPACE             &kp RETURN             &tog 2
+                                        &kp HOME      &kp DELETE    &kp BACKSPACE     &kp SPACE             &kp RETURN             &kp END
             >;
         };
     };
