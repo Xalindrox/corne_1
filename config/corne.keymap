@@ -61,10 +61,10 @@
 
             display-name = "Base";
             bindings = <
-&tog 1           &mt PLUS Q    &mt MINUS W      &mt ASTERISK F        &mt SLASH P        &mt EQUAL B      &HMR LEFT_PARENTHESIS J  &HMR RIGHT_PARENTHESIS L  &HMR MINUS U          &HMR UNDER Y      &kp SEMICOLON  &tog 2
-&kp TAB          &HML LCTRL A  &HML LEFT_ALT R  &HML LWIN S           &HML LEFT_SHIFT T  &HL 1 G          &HL 1 M                  &HMR RIGHT_SHIFT N        &HMR LEFT_WIN E       &HMR RIGHT_ALT I  &HMR RCTRL O   &kp SQT
-&HML LCTRL CAPS  &kp Z         &kp X            &kp C                 &kp D              &HL 2 V          &kp K                    &kp H                     &HMR PIPE COMMA       &kp DOT           &kp FSLH       &kp ESCAPE
-                                                &HML LEFT_SHIFT HOME  &kp DEL            &kp BACKSPACE    &kp SPACE                &kp ENTER                 &HMR RIGHT_SHIFT END
+&tog 1           &mt PLUS Q        &mt MINUS W      &mt ASTERISK F        &mt SLASH P        &mt EQUAL B      &HMR LEFT_PARENTHESIS J  &HMR RIGHT_PARENTHESIS L  &HMR MINUS U          &HMR UNDER Y      &kp SEMICOLON  &tog 2
+&kp TAB          &HML LCTRL A      &HML LEFT_ALT R  &HML LWIN S           &HML LEFT_SHIFT T  &HL 1 G          &HL 1 M                  &HMR RIGHT_SHIFT N        &HMR LEFT_WIN E       &HMR RIGHT_ALT I  &HMR RCTRL O   &kp SQT
+&HML LCTRL CAPS  &mt LEFT_SHIFT Z  &kp X            &kp C                 &kp D              &HL 2 V          &kp K                    &kp H                     &HMR PIPE COMMA       &kp DOT           &kp FSLH       &kp ESCAPE
+                                                    &HML LEFT_SHIFT HOME  &kp DEL            &kp BACKSPACE    &kp SPACE                &kp ENTER                 &HMR RIGHT_SHIFT END
             >;
         };
 
@@ -77,10 +77,10 @@
 
             display-name = "Lower";
             bindings = <
-&tog 1     &none         &none     &kp UP_ARROW  &kp PAGE_UP    &kp C_VOLUME_UP    &mt UNDERSCORE MINUS  &mt AMPERSAND KP_N7          &mt ASTERISK KP_N8  &kp KP_N9        &kp ASTERISK  &tog 2
-&kp TAB    &kp LEFT_WIN  &kp LEFT  &kp DOWN      &kp RIGHT      &kp C_VOL_DN       &mt PLUS EQUAL        &mt DOLLAR KP_N4             &mt PERCENT KP_N5   &mt CARET KP_N6  &kp SLASH     &none
-&kp LSHFT  &none         &none     &none         &kp PAGE_DOWN  &kp K_MUTE         &kp KP_N0             &mt EXCLAMATION KP_NUMBER_1  &mt AT_SIGN KP_N2   &mt HASH KP_N3   &kp PERIOD    &none
-                                   &kp HOME      &kp DEL        &kp BACKSPACE      &kp SPACE             &kp RETURN                   &kp END
+&tog 1           &none         &none     &kp UP_ARROW  &kp PAGE_UP    &kp C_VOLUME_UP    &mt UNDERSCORE MINUS  &mt AMPERSAND KP_N7          &mt ASTERISK KP_N8  &kp KP_N9        &kp ASTERISK  &tog 2
+&kp TAB          &kp LEFT_WIN  &kp LEFT  &kp DOWN      &kp RIGHT      &kp C_VOL_DN       &mt PLUS EQUAL        &mt DOLLAR KP_N4             &mt PERCENT KP_N5   &mt CARET KP_N6  &kp SLASH     &none
+&HML LCTRL CAPS  &kp LSHIFT    &none     &none         &kp PAGE_DOWN  &kp K_MUTE         &kp KP_N0             &mt EXCLAMATION KP_NUMBER_1  &mt AT_SIGN KP_N2   &mt HASH KP_N3   &kp PERIOD    &none
+                                         &kp HOME      &kp DEL        &kp BACKSPACE      &kp SPACE             &kp RETURN                   &kp END
             >;
         };
 
