@@ -61,7 +61,7 @@
 
             display-name = "Base";
             bindings = <
-&tog 1           &kp Q         &kp W            &kp F                 &kp P              &HL 2 B          &HMR LEFT_PARENTHESIS J  &HMR RIGHT_PARENTHESIS L  &HMR MINUS U          &HMR UNDER Y      &kp SEMICOLON  &tog 2
+&tog 1           &mt PLUS Q    &mt MINUS W      &mt ASTERISK F        &mt SLASH P        &mt EQUAL B      &HMR LEFT_PARENTHESIS J  &HMR RIGHT_PARENTHESIS L  &HMR MINUS U          &HMR UNDER Y      &kp SEMICOLON  &tog 2
 &kp TAB          &HML LCTRL A  &HML LEFT_ALT R  &HML LG(LWIN) S       &HML LEFT_SHIFT T  &HL 1 G          &HL 1 M                  &HMR RIGHT_SHIFT N        &HMR LEFT_WIN E       &HMR RIGHT_ALT I  &HMR RCTRL O   &kp SQT
 &HML LCTRL CAPS  &kp Z         &kp X            &kp C                 &kp D              &HL 2 V          &kp K                    &kp H                     &HMR PIPE COMMA       &kp DOT           &kp FSLH       &kp ESCAPE
                                                 &HML LEFT_SHIFT HOME  &kp DEL            &kp BACKSPACE    &kp SPACE                &kp ENTER                 &HMR RIGHT_SHIFT END
